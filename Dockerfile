@@ -8,6 +8,7 @@ RUN npm run build
 
 # phase 1
 FROM nginx
+EXPOSE 80
 COPY --from=0 /usr/app/build /usr/share/nginx/html
 # default command of nginx image is run nginx,
 # therefore, no need to write a CMD instruction to start it manually
