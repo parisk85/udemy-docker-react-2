@@ -9,6 +9,7 @@ function App() {
         <p>
           Hello React with Docker!
         </p>
+        <p>Feature branch</p>
       </header>
     </div>
   );
